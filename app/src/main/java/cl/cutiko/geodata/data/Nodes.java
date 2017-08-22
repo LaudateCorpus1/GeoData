@@ -23,7 +23,7 @@ public class Nodes {
     }
 
     public Query locationsByIndex(String countryIso) {
-        return root.child("favorites").child(countryIso).orderByValue().startAt("not").endAt("not" + "\uf8ff");
+        return root.child("places_name").child(countryIso).orderByValue().startAt("not").endAt("not" + "\uf8ff");
         //return root.child("favorites").child("user_uid_1").child(countryIso);
         //return root.child("places_category").child(countryIso).orderByValue().startAt("category1");
     }
