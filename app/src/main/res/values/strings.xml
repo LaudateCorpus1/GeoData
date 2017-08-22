@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GeoData</string>
+    <string name="title_activity_indexed_list">IndexedListActivity</string>
+</resources>
