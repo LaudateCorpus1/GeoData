@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements PodsCallback {
         TelephonyManager telephonyManager = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
         populatePods.getNearPods(telephonyManager);
 
-        Button button = findViewById(R.id.nextBtn);
+        Button button = (Button) findViewById(R.id.nextBtn);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
